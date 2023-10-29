@@ -7,3 +7,17 @@ body,
 :root {
   height: 100%;
 }
+/* For removing the blue selection color */
+::selection {
+  background-color: transparent;
+}
+
+/* For removing the blue selection color in input fields */
+input::selection {
+  background-color: transparent;
+}
+
+/* For Firefox */
+::-moz-selection {
+  background-color: transparent;
+}
